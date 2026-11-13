@@ -14,11 +14,16 @@
             #endregion
 
             #region question 2
-            Book b2 = new Book();
-            Console.WriteLine(b2.Equals(b2));
-            Console.WriteLine(b2.GetHashCode());
-            Console.WriteLine(b2.GetType());
-            Console.WriteLine(b2.ToString());
+            //Book b2 = new Book();
+            //Console.WriteLine(b2.Equals(b2));
+            //Console.WriteLine(b2.GetHashCode());
+            //Console.WriteLine(b2.GetType());
+            //Console.WriteLine(b2.ToString());
+            #endregion
+
+            #region question 3
+            //compile time error 
+            int pages = 464;
             #endregion
 
 
