@@ -23,7 +23,27 @@
 
             #region question 3
             //compile time error 
-            int pages = 464;
+            //int pages = 464;
+            #endregion
+
+            #region question 4
+            int x = 10;
+            int y = 0;
+            try
+            {
+                Console.WriteLine(x / y);
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine("Cannot divide by zero");
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                Console.WriteLine("done");
+            }
+
             #endregion
 
 
